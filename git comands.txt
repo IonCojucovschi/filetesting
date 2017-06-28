@@ -1,0 +1,48 @@
+git init                        {cind intri in mapa pentru v=care vrei sa faci controlul vessiunilor clik dreapta git brenci si scrii comanda}
+
+git commit -m "numecomit"       ---{creaza un comit cu numele numecommit }
+
+git checkout -b numeBranch       {creeaza un nou branch  de lucru --in interior se creeaza mai multe commituri apoi se face <<<git merge?>>>}
+
+git checkout numeBranch          {se conectaza la branciul cu denumirea numeBranch}
+  
+git add numeFis                 (se adaoga un fisier) daca punem (git add .) se va adaoga toate fisierele schimbate
+
+git merge numeBranch             (_se face copierea ultimelor schimbari pe master,,  trebuie sa ne aflat pe master )
+
+git log                          (afiseaza lista de commituri dintr-un brench)
+
+git show  id{Comit}              (arata schimbarile care leam facut in comitul dorit adica cu idiul dat )
+
+git diff                         (arata ce sa intimplat de la ultimul commit ,,,adica arata toate schimbarile in fisier)
+
+git remote -v                   (serverele unde putem adaoga fisierele noastre!!)
+
+git pull                         (ia toate schimbarile de pe server si le adauga in fisierele noastre din pk) (tipa daca acasa faci schimbari si le faci push apoi la lucru faci numai git pull si gata)
+
+git push                          (adaoga tate schimv=barile in serverul sau remoteul nostru ,,,,,)
+
+git tag numeleTagului            (creaza un tag cu denumirea ex 1.1.2   sau 1.1.0.1    si asa mai departe .. acesta ramin neatinse pe parcursul schimbarilor,,,si sunt ca un fel de branch-uri   git checout -b 1.1.2 ceeaza un nou branch cu tagul dat>)
+
+git fetch  nameREmote           (copie fisierele de pe remot la noi in Ramura,)
+
+<<<<<<<<<<<        git pull == git fetch num +git merge numeBranch      >>>>>>>>>>>>>>>>>>
+
+
+touch numefis.extensie          (adaoga in folderul de control al versiunilor un fisier cu extensia data)
+
+ls                              (afiseaza lista de fisiere ce fac parte din controlul versiuniii)
+
+vi numeFisier                    (editeaza fisierul far in exensi data)
+
+ESK :q!                          (Esi din fisierul editat !!!)
+
+
+
+
+
+
+
+
+
+
